@@ -9,7 +9,9 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@reduxjs/toolkit": "^2.9.2",
     "exceljs": "^4.4.0",
+    "filereader": "^0.10.3",
     "mammoth": "^1.11.0",
     "multer": "^2.0.2",
     "next": "16.0.1",
@@ -17,6 +19,7 @@
     "pdf-parse": "^2.4.5",
     "react": "19.2.0",
     "react-dom": "19.2.0",
+    "react-redux": "^9.2.0",
     "tesseract.js": "^6.0.1"
   },
   "devDependencies": {
