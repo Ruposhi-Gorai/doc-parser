@@ -1,5 +1,7 @@
 'use client'
 import { createSlice } from '@reduxjs/toolkit'
+import multer from "multer";
+
 
 // const reader = new FileReader();
 // reader.onload = () => {
@@ -20,6 +22,7 @@ export const docSlice = createSlice({
     },
     addFile: (state, action) => {
         state.value = action.payload
+
     }
 
   }
